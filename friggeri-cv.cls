@@ -56,7 +56,8 @@
 \defaultfontfeatures{Mapping=tex-text}
 \setmainfont[Mapping=tex-text, Color=textcolor]{Helvetica Neue Light}
 
-\setmathfont{XITS Math}
+%\setmathfont{XITS Math}
+\setmathfont{xits-math.otf}
 
 %%%%%%%%%%
 % Header %
@@ -172,7 +173,7 @@
 % Bibliography %
 %%%%%%%%%%%%%%%%
 
-\RequirePackage[style=verbose, maxnames=99, sorting=ydnt]{biblatex}
+\RequirePackage[style=verbose, maxnames=99, sorting=ydnt, backend=biber]{biblatex}
 
 \DeclareFieldFormat[article]{title}{#1\par}
 \DeclareFieldFormat[inproceedings]{title}{#1\par}
