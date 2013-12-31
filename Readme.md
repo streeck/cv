@@ -1,6 +1,9 @@
 # About
-Meu currículo baseado no template de Adrien Friggeri. Repositório original [aqui](https://github.com/afriggeri/cv)
+Meu currículo baseado no template de Adrien Friggeri. Repositório original [aqui](https://github.com/afriggeri/cv).
 
+Comandos:
+`biber cv`
+`xelatex cv.tex`
 
 # License
 
