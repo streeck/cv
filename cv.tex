@@ -4,47 +4,40 @@
 
 \begin{document}
 \header{charles}{moraes}
-       {software engineer - data scientist}
-
+       {software engineer}
 
 % In the aside, each new line forces a line break
 \begin{aside}
   \section{about}
     \href{mailto:raverblazer@gmail.com}{raverblazer@gmail.com}
-    \href{http://www.linkedin.com/in/charlesdm}{\faLinkedinSign \space  /in/charlesdm}
-    \href{https://github.com/streeck}{\faGithubSign \space github.com/streeck}
+    \href{http://www.linkedin.com/in/charlesdm}{\faLinkedin \space  /in/charlesdm}
+    \href{https://github.com/streeck}{\faGithub \space github.com/streeck}
     ~
-    (11) 5066-7442
-    (11) 99421-0220
+    +31 (0) 6 555 376 94
     ~
-    Avenida Moaci 1885
-    Planalto Paulista
-    04083-005
-    São Paulo, SP
-    Brazil
+    Jacques Brelweg 42
+    1311 HG, Almere
+    The Netherlands
   \section{languages}
     native portuguese
     fluent english
     spanish notions
   \section{programming}
-    Python, R
+    Python, Ansible
+    Nginx, Redis
     Django, Flask
-    Numpy, Pandas, Scipy
-    Keras, Theano
-    Tensorflow
+    Numpy, Pandas
+    Keras, Tensorflow
     Scikit-learn
-    C, C++, Java, Go
+    C, C++, Go, Rust
     Spark, AWS
-    Ruby on Rails
     PostgreSQL, NoSQL
     DynamoDB, MongoDB
-    JavaScript
-    CSS3 \& HTML5
 \end{aside}
 
 \section{interests}
 
-Data science, machine learning, artificial intelligence, big data, open source,  microservices, data mining, innovation, new technologies, robotics, internet of things
+Robotics, distributed programming, performance optimization, internet of things, data mining, open source, microservices and service mesh, SRE, big data, low level programming.
 
 \section{education}
 
@@ -67,20 +60,23 @@ Data science, machine learning, artificial intelligence, big data, open source, 
 
 \begin{entrylist}
 	\entry
-		{2017 -- now}
+		{2018 -- now}
+		{KPN (via Elements Interactive)}
+		{Almere, Netherlands}
+		{\emph{Software Engineer}\\
+		Working in the Digital Engine Platform team, responsible for innovating and setting paved roads for several other teams. Worked on templating and automating several repetitive and redundant things in infrastructure, deployment, application and setup.
+		Improved our nginx openresty load balancer setup together with the automation of Ansible inventory management and application class based segregation (shared on-prem environment) so we could have a lot more control and granularity of traffic and application deployment, overall performance improvement of several services and better incident response when noisy neighbours need to be isolated.
+		Working on setting the paved road for migrating current Python (DRF/aiohttp) applications to Kubernetes and AWS, redesigning already existing applications to be cloud native, templating the entire CI/CD pipelines (Jenkins) from tests, preview environments and deployment, so that the teams can focus on application development.
+		}
+
+	\entry
+		{2016 - 2018}
 		{TunEduc}
 		{São Paulo, Brazil}
 		{\emph{Software Engineer \& Data Scientist}\\
-		I've been responsible for developing a couple more APIs for data collection and Item Response Theory, including the development of a Python \& R IRT package using RPy2.
-		I've also participated more in data related tasks, all the way from extracting or mining to cleaning, processing and finally giving analysis with interesting graphs, mostly done with Python using Pandas, Seaborn, Matplotlib, etc.
+		Developed a predictive machine learning model for estimating student's scores in the national exam (ENEM) and a complex Flask API to store exams results and estimate scores with live updates given the growth of exam samples that were submitted. Nearly 500.000 users with peaks of 1.000 requests/s. 
+		Other things include but are not limited to: data mining, web scraping and data analysis all using Python and sometimes R.
 		}
-	\entry
-		{2016}
-		{TunEduc}
-		{São Paulo, Brazil}
-		{\emph{Development Intern}\\
-		During my internship I was given full autonomy and responsibility of developing a complex API(Flask) in which a student could estimate his National Exam score(ENEM). It ended up being used by ~420.000 users, with peaks of 600 requests per second.\\
-		I've also contributed to other projects like a school geo marketing platform in Rails and some web crawling and scraping demands.}
 	\entry
 		{2014 - 2015}
 		{UFSCar}
@@ -89,38 +85,6 @@ Data science, machine learning, artificial intelligence, big data, open source, 
 		I've contributed to a Master's student project where I was responsible for developing a web crawler and scraper using Python's Scrapy, in addition to that I've developed several other minor solutions using Python. 
 		}
 		
-
-		
 \end{entrylist}
-
-
-\section{volunteer}
-
-\begin{entrylist}
-  \entry
-    {since 2015}
-    {TECHO | TETO}
-    {Volunteer}
-    {Volunteer in building emergency houses for people in extreme poverty conditions.}
-\end{entrylist}
-
-%\section{courses}
-
-%\begin{entrylist}
-%  \entry
-%    {2015}
-%    {Coursera}
-%    {Several Universities}
-%    {Data Analysis and Statistical Inference \\
-%    Big Data em Saúde no Brasil \\
-%    The Data Scientist's Toolbox \\
-%    R Programming}
-%  \entry
-%    {2015}
-%    {Software Reuse through Software Product Lines}
-%    {UFSCar}
-%    {To create specific products based in the reuse of an infrastructure that contemplates software architecture, components, design patterns and planning methods. \\
-%    Duration: 40 hours}
-%\end{entrylist}
 
 \end{document}
